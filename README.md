@@ -8,6 +8,7 @@
 #### FROM batiment b, etage e, appartement_bureau a
 #### WHERE b.id_batiment = e.id_batiment
 #### AND   e.id_batiment = a.num_batiment
-#### AND   b.id_batiment= 4;
+#### AND   b.id_batiment= 4
+#### AND   e.id_etage = 1;
 ------------------------------
 ![alt-text](https://github.com/Dolois/sql_tables_jointures/blob/master/select%20tables%20avec%20jointures.JPG)
